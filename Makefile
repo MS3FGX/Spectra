@@ -1,6 +1,6 @@
 # App info
 APPNAME = spectra
-VERSION = 1.2
+VERSION = 1.3
 
 # Compiler and options
 CC = gcc
