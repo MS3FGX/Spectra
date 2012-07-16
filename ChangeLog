@@ -1,0 +1,27 @@
+07/16/12:
+	Fixed Makefile linker issue on Ubuntu and friends
+	Added descriptive error for end of file
+	Detect file size before opening
+	Improvements to error/status messages
+
+07/11/10: Released as version 1.2
+	Updated to use new Makefile
+	Updated documentation
+
+04/22/10: Released as version 1.1
+	Minor code and documentation changes to bring in line with other apps
+
+11/12/09: Released as version 1.0
+	Added check for non-supported input characters
+
+11/06/09
+	Added mandatory input file, no default.
+	Adjusted error messages.
+
+11/05/09
+	Added runtime options, color support, image analysis.
+	Fixed file access glitch (also fixed in bt_rng).
+	Increased maximum image size to 3000x3000
+
+11/04/09:
+	First build, test of GD library, able to draw B&W image at 640x480
