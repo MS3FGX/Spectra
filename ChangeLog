@@ -1,3 +1,6 @@
+09/24/12:
+	Updated license language in README
+
 07/16/12:
 	Fixed Makefile linker issue on Ubuntu and friends
 	Added descriptive error for end of file
