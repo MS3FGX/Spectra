@@ -245,6 +245,11 @@ int main(int argc, char *argv[])
 				gdImageSetPixel(img, x, y, purple);
 				occurs[9]++;
 				break;
+			case 10: // Newline
+				printf("Error!\n");
+				printf("Input file contains line breaks.\n");
+				printf("File must be a continuous stream of ASCII number, see README.\n");
+				exit(1);
 			case -1: //EOF
 				printf("Error!\n");
 				printf("Spectra reached end of file before generating image.\n"
