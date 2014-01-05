@@ -248,7 +248,7 @@ int main(int argc, char *argv[])
 			case 10: // Newline
 				printf("Error!\n");
 				printf("Input file contains line breaks.\n");
-				printf("File must be a continuous stream of ASCII number, see README.\n");
+				printf("File must be a continuous stream of ASCII numbers, see README.\n");
 				exit(1);
 			case -1: //EOF
 				printf("Error!\n");
